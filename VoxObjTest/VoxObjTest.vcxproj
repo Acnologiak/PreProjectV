@@ -133,15 +133,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TransformationTools.cpp" />
     <ClCompile Include="VoxObj.cpp" />
-    <ClCompile Include="VoxObjSurface.cpp" />
-    <ClCompile Include="VoxObjToObj.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ObjReader.cpp" />
-    <ClInclude Include="ObjReader.h" />
+    <ClInclude Include="BaseValues.h" />
     <ClInclude Include="TransformationTools.h" />
     <ClInclude Include="VoxObj.h" />
-    <ClInclude Include="VoxObjSurface.h" />
+    <ClInclude Include="VoxObjChunk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

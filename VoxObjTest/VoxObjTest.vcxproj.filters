@@ -18,33 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VoxObj.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VoxObjToObj.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="TransformationTools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VoxObjSurface.cpp">
+    <ClCompile Include="VoxObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VoxObj.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjReader.cpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TransformationTools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VoxObjSurface.h">
+    <ClInclude Include="BaseValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxObjChunk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
