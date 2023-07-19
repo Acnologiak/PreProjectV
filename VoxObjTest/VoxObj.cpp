@@ -24,8 +24,11 @@ void VoxObj8Bit::SetVoxel(const i32vec3& _coordinates, u8 _color)
 	auto chunk = chunks.find(mapKey);
 	if (chunk == chunks.end())
 	{
-		CreateChunk(externalCoordinates);
-		chunk = chunks.find(mapKey);
+		if (_color != 0)
+		{
+			CreateChunk(externalCoordinates);
+			chunk = chunks.find(mapKey);
+		}
 	}
 	
 	u8vec3 internalCoordinates = GetChunkInternalCoordinates(_coordinates);
@@ -36,7 +39,7 @@ bool VoxObj8Bit::CreateChunk(const i16vec3& _coordinates)
 {
 	size_t coordinates = I16vec3ToSizeT(_coordinates);
 
-	if (chunks.find(coordinates) == chunks.end())
+	if (chunks.find(coordinates) != chunks.end())
 	{
 		return false;
 	}
