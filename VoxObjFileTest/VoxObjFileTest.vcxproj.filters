@@ -18,8 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VoxObj.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VoxObjFilePoly.h">
       <Filter>Header Files</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
