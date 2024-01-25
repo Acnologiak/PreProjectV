@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2bf94d9-66e7-478c-90a2-4ef267d7d96f}</ProjectGuid>
-    <RootNamespace>VoxObjFileTest</RootNamespace>
+    <ProjectGuid>{34e7ab2b-2777-494b-98d7-bb17adfa0446}</ProjectGuid>
+    <RootNamespace>VoxObjTestV5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,9 +129,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PolyObj.cpp" />
+    <ClCompile Include="TransformationTools.cpp" />
+    <ClCompile Include="VoxObj.cpp" />
+    <ClCompile Include="VoxObjFuncs.cpp" />
+    <ClCompile Include="VoxObjSurface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VoxObjFilePoly.h" />
+    <ClInclude Include="BaseValues.h" />
+    <ClInclude Include="PolyObj.h" />
+    <ClInclude Include="TransformationTools.h" />
+    <ClInclude Include="VoxObj.h" />
+    <ClInclude Include="VoxObjSurface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VoxObjFuncs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

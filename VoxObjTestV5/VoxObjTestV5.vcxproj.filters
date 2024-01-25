@@ -18,10 +18,42 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TransformationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxObjFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxObjSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VoxObjFilePoly.h">
+    <ClInclude Include="VoxObj.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TransformationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxObjSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VoxObjFuncs.h">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

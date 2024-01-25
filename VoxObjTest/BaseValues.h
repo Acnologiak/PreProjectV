@@ -1,5 +1,0 @@
-#pragma once
-
-#define CHUNK_SIZE 16
-#define PHYSICAL_CHUNK_SIZE 0.5
-#define PHYSICAL_VOXEL_SIZE 0.03125
